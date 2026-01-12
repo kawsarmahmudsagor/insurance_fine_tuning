@@ -1,0 +1,55 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "insurance_policy_qa",
+  "dataset_size": 26646048,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/junaidiqbalsyed/insurance_policy_qa@e32003a7eb1632babab606a297765f140f1ef6ec/data/train-00000-of-00001.parquet": {
+      "num_bytes": 14500050,
+      "checksum": null
+    }
+  },
+  "download_size": 14500050,
+  "features": {
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "labels": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "List"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 41146098,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 26646048,
+      "num_examples": 21325,
+      "dataset_name": "insurance_policy_qa"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
